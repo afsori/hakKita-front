@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import Header from './component/Header/Header';
+import Home from './pages/Home/Home';
+import Comunity from './pages/Comunity/Comunity';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Route path="/" exact component={Home}/>
+      <Route path="/Blog" exact component={Comunity}/>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,69 @@
+.wrapper-gambar-product{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.wrapper-product{
+    margin-top: 70px;
+}
+.wrapper-product h1{
+    text-align: center;
+    font-size: 50px;
+}
+.head-title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.wrapper-gambaer-product{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card-product{
+    text-align: center;
+    width: 35%;
+}
+.card-product img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.title-card-product{
+    font-weight: bold;
+}
+.caption-card-product{
+    padding: 0 24px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.card-product button{
+    background: #43B5A5;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 18px;
+}
+.wrapper-pemberitahuan{
+    margin-top: 70px;
+    background: #1c4481;
+    color: white;
+}
+.card-pemberitahuan{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+.card-pemberitahuan h1{
+    text-align: start;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.card-pemberitahuan p{
+    font-size: 2.2\rem;
+    margin-top: 0;
+    width: 85%;
+}

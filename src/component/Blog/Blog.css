@@ -1,0 +1,74 @@
+.wrapper-card-blog{
+    margin-top: 60px;
+}
+.card-blog-wrap h1{
+    text-align: center;
+}
+.flex-card-blog{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 5%;
+}
+.card-blog-wrap .caption-judul-blog{
+    text-align: center;
+    font-size: 14px;
+}
+.card-blog{
+    box-shadow: 2px 0px 11px 0px #ddd;
+    /* width: 350px; */
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.card-blog a{
+    text-decoration: none;
+}
+.card-blog .btn-blog{
+    background: #5089C7;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.card-blog .judul-blog{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.tanggal-blog{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.btn-read-more{
+    background: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-read-more:hover{
+    text-decoration: underline;
+}
+.btn-read-more:active{
+outline: none;
+border: none;
+}
+.card-question-wrap{
+    margin-top: 70px;
+}
+.card-question-wrap h1{
+    text-align: center;
+}
+.card-question-flex{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.card-question{
+    border: 1px solid blue;
+    padding: 30px 50px;
+    border-radius: 5px;
+    width: 250px;
+}
+.card-question img{
+    border-radius: 50%;
+    width: 75px;
+}

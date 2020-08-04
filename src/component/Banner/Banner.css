@@ -1,0 +1,24 @@
+.wrapper-banner{
+    margin-top: 100px;
+    background-image: url(../../assets/comp-banner.jpg);
+}
+.container-banner{
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.container-banner p{
+    font-weight: 600;
+    font-size: 45px;
+    /* width: 50%; */
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.container-banner button{
+    background: #5089C7;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+}
